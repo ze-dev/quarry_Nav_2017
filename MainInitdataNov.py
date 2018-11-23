@@ -1,4 +1,4 @@
-﻿'''initdataNov импортирует из jeamodNov
+'''initdataNov импортирует из jeamodNov функции
 Все переменные и рассчеты проводятся тут'''
 from jeamodNov import *
 z=print 
@@ -45,7 +45,7 @@ zlocdb( db, [ 'gpk','bz','go','zo','Kp','krd','ps','rn' ] )
 z('Остальное в теле проекта')
 sms='\nРассчетные данные:\n\
 должны получить значения следующих переменных для таблицы2:\n\
-\Vizvlek = Извлекаемые запасы, куб.м.\n\
+Vizvlek = Извлекаемые запасы, куб.м.\n\
 \n\
 Kv = Коэффициент вскрыши\n\
 \n\
@@ -1159,4 +1159,4 @@ z('okt18',_,Lp[_],round((Sv[_[0]]+Sv[_[1]])/2,3),round(Evv[_],1),sep=' '*3)
 make_db_shelve(db,nb)
 print('\nВ сложенных базах - {} + {}  = {}  строк '.format(len(db),len(nb), len(db)+len(nb)))
 
-input('\npress any key..')
+input('\npress enter..')
